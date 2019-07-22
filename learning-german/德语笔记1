@@ -95,13 +95,18 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Psycho Corner of Charles">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="forewords不同的语言">
+<meta name="keywords" content="vocabulary, grammar">
+<meta property="og:type" content="article">
+<meta property="og:title" content="德语笔记1">
+<meta property="og:url" content="http://yoursite.com/learning-german/德语笔记1">
 <meta property="og:site_name" content="Psycho Corner of Charles">
+<meta property="og:description" content="forewords不同的语言">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-07-22T06:55:42.758Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Psycho Corner of Charles">
+<meta name="twitter:title" content="德语笔记1">
+<meta name="twitter:description" content="forewords不同的语言">
 
 
 
@@ -109,7 +114,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/learning-german/德语笔记1">
 
 
 
@@ -120,7 +125,7 @@
 </script>
 
   
-  <title>Psycho Corner of Charles</title>
+  <title>德语笔记1 | Psycho Corner of Charles</title>
   
 
 
@@ -168,8 +173,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -211,7 +215,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -299,9 +303,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -333,10 +337,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/learning-german/德语笔记1" class="post-title-link" itemprop="url">德语笔记1</a>
+          <h1 class="post-title" itemprop="name headline">德语笔记1
+
               
             
           </h1>
@@ -420,17 +422,15 @@
       
 
       
-        
-          
-            <h1 id="forewords"><a href="#forewords" class="headerlink" title="forewords"></a>forewords</h1><p>不同的语言</p>
+        <h1 id="forewords"><a href="#forewords" class="headerlink" title="forewords"></a>forewords</h1><p>不同的语言</p>
 
-          
-        
       
     </div>
 
     
 
+    
+      
     
 
     
@@ -448,14 +448,23 @@
 
     <footer class="post-footer">
       
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/tags/vocabulary-grammar/" rel="tag"># vocabulary, grammar</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -465,14 +474,15 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -492,8 +502,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -563,6 +582,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#forewords"><span class="nav-number">1.</span> <span class="nav-text">forewords</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -695,6 +731,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.2.0"></script>
+<script src="/js/post-details.js?v=7.2.0"></script>
+
+
 
   <script src="/js/next-boot.js?v=7.2.0"></script>
 
@@ -715,6 +755,8 @@
 
 
 
+
+  
 
 
 

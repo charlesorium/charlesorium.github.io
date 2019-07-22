@@ -104,34 +104,25 @@
     </div>
 </header>
         <main class="main">
-            
-<section class="posts">
+            <article class="post">
     
-        <article class="post">
-            
-                    <h1 class="post-title">
-                        <a href="/uncategorized/德语笔记1">
-                            德语笔记1
-                        </a>
-                    </h1>
-
-                    <ul class="post-date">
-                        <li>
-                            July 22, 2019
-                        </li>
-                        <li>
-                            Charlesorium
-                        </li>
-                    </ul>
-                    
-                    <div class="post-content ">
-                        
-                            <a href="/uncategorized/德语笔记1" class="more-link">Continue reading</a>
-                    </div>
-        </article>
+    
+    
+    <h2 class="post-title">
+        德语笔记1
+    </h2>
+    <ul class="post-date">
+        <li>
+            2019-07-22
+        </li>
+        <li>
+            Charlesorium
+        </li>
+    </ul>
+    <div class="post-content">
         
-</section>
-
+    </div>
+</article>
         </main>
         <aside class="aside">
             <div class="close"></div>

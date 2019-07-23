@@ -96,14 +96,14 @@
 </script>
 
   <meta name="description" content="about logic​        学符号逻辑有三条上升之路：哲学、计算机科学和数学。逻辑学作为哲学的分支，历史悠久，发展至今，出现了符号逻辑学。数学也有符号逻辑，但称作布尔代数。计算机科学从数学中独立出来后，布尔代数依旧影响着计科的发展，是计科的重要部分。 ​        这一系列笔记称为符号逻辑基础，意味着此笔记与哲学有很强的联系。 basic definitions 陈述句： $\fo">
-<meta name="keywords" content="logic,note,philosophy">
+<meta name="keywords" content="note,logic,philosophy">
 <meta property="og:type" content="article">
 <meta property="og:title" content="符号逻辑学基础1">
 <meta property="og:url" content="http://yoursite.com/logic/符号逻辑基础1/index.html">
 <meta property="og:site_name" content="Psycho Corner of Charles">
 <meta property="og:description" content="about logic​        学符号逻辑有三条上升之路：哲学、计算机科学和数学。逻辑学作为哲学的分支，历史悠久，发展至今，出现了符号逻辑学。数学也有符号逻辑，但称作布尔代数。计算机科学从数学中独立出来后，布尔代数依旧影响着计科的发展，是计科的重要部分。 ​        这一系列笔记称为符号逻辑基础，意味着此笔记与哲学有很强的联系。 basic definitions 陈述句： $\fo">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-07-23T06:51:29.671Z">
+<meta property="og:updated_time" content="2019-07-23T07:00:59.752Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="符号逻辑学基础1">
 <meta name="twitter:description" content="about logic​        学符号逻辑有三条上升之路：哲学、计算机科学和数学。逻辑学作为哲学的分支，历史悠久，发展至今，出现了符号逻辑学。数学也有符号逻辑，但称作布尔代数。计算机科学从数学中独立出来后，布尔代数依旧影响着计科的发展，是计科的重要部分。 ​        这一系列笔记称为符号逻辑基础，意味着此笔记与哲学有很强的联系。 basic definitions 陈述句： $\fo">
@@ -379,7 +379,7 @@
                 
               
 
-              <time title="Created: 2019-07-23 13:29:30 / Modified: 14:51:29" itemprop="dateCreated datePublished" datetime="2019-07-23T13:29:30+08:00">2019-07-23</time>
+              <time title="Created: 2019-07-23 13:29:30 / Modified: 15:00:59" itemprop="dateCreated datePublished" datetime="2019-07-23T13:29:30+08:00">2019-07-23</time>
             </span>
           
 
@@ -490,9 +490,9 @@
         
         <div class="post-tags">
           
-            <a href="/tags/logic/" rel="tag"># logic</a>
-          
             <a href="/tags/note/" rel="tag"># note</a>
+          
+            <a href="/tags/logic/" rel="tag"># logic</a>
           
             <a href="/tags/philosophy/" rel="tag"># philosophy</a>
           
@@ -821,6 +821,53 @@
 
 
   
+  
+
+  
+  
+
+  
+    
+      <script type="text/x-mathjax-config">
+  
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') { next = next.nextSibling }
+        if (next && next.nodeName.toLowerCase() === 'br') { next.parentNode.removeChild(next) }
+      }
+    });
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      document.getElementById(all[i].inputID + '-Frame').parentNode.className += ' has-jax';
+    }
+  });
+</script>
+<script src="//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    
+  
+
 
 
 

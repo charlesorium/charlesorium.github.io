@@ -441,52 +441,19 @@
             <h3 id="about-logic"><a href="#about-logic" class="headerlink" title="about logic"></a>about logic</h3><p>​        学符号逻辑有三条上升之路：哲学、计算机科学和数学。逻辑学作为哲学的分支，历史悠久，发展至今，出现了符号逻辑学。数学也有符号逻辑，但称作布尔代数。计算机科学从数学中独立出来后，布尔代数依旧影响着计科的发展，是计科的重要部分。</p>
 <p>​        这一系列笔记称为符号逻辑基础，意味着此笔记与哲学有很强的联系。</p>
 <h3 id="basic-definitions"><a href="#basic-definitions" class="headerlink" title="basic definitions"></a>basic definitions</h3><ol>
-<li><p><strong>陈述句</strong>： $\forall\phi, \begin{cases}\phi是真的吗? \ \phi是假的吗?\end{cases}$，有意义，则$\phi$为陈述句</p>
+<li><p><strong>陈述句</strong>： $\forall\phi, \begin{cases}\phi是真的吗? \\ \phi是假的吗?\end{cases}$，有意义，则$\phi$为陈述句</p>
 </li>
 <li><p><strong>n元联结词</strong></p>
 </li>
 <li><p><strong>简单句</strong>与<strong>复合句</strong></p>
 </li>
 <li><p>记法：</p>
-<table>
-<thead>
-<tr>
-<th>采用</th>
-<th>常见</th>
-<th>波兰</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>$\sim$</td>
-<td>$\neg,\bar{A},\rightharpoondown$</td>
-<td>$N$</td>
-</tr>
-<tr>
-<td>$\and$</td>
-<td>$&amp;$</td>
-<td>$K$</td>
-</tr>
-<tr>
-<td>$\or$</td>
-<td></td>
-<td>$A$</td>
-</tr>
-<tr>
-<td>$\rightarrow$</td>
-<td>$\supset,\Rightarrow$</td>
-<td>$C$</td>
-</tr>
-<tr>
-<td>$\leftrightarrow$</td>
-<td>$\equiv,\Leftrightarrow$</td>
-<td>$E$</td>
-</tr>
-</tbody></table>
+<p>| 采用              | 常见                             | 波兰 |<br>| ————————- | ———————————————— | —— |<br>| $\sim$            | $\neg,\bar{A},\rightharpoondown$ | $N$  |<br>| $\and$            | $\&amp;$                             | $K$  |<br>| $\or$             |                                  | $A$  |<br>| $\rightarrow$     | $\supset,\Rightarrow$            | $C$  |<br>| $\leftrightarrow$ | $\equiv,\Leftrightarrow$         | $E$  |</p>
 </li>
 <li><p><strong>$\mathcal{L}_0-$公式</strong>：$\mathcal{L}_0$的所有命题变号皆为$\mathcal{L}_0-$公式。若$\phi$是$\mathcal{L}_0-$公式，则$\sim\phi$也是$\mathcal{L}_0-$公式。若$\phi,\psi$皆为$\mathcal{L}_0-$公式，则$(\phi\and\psi),(\phi\or\psi),(\phi\rightarrow\psi),(\phi\leftrightarrow\psi)$都是$\mathcal{L}_0-$公式。只有这些是$\mathcal{L}_0-$公式。</p>
 </li>
 <li><p><strong>重言蕴含</strong>（as a verb），重言后承（as a noun）：</p>
-<p>${\phi_1,\phi_2,\cdots,\phi _n }$重言蕴含$\psi$$\Longleftrightarrow$$\phi_1,\phi_2,\cdots,\phi_n$的真值都是$_T$，那么$\psi$的真值也一定是$_T$</p>
+<p>$\{\phi_1,\phi_2,\cdots,\phi _n \}$重言蕴含$\psi<script type="math/tex">\Longleftrightarrow</script>\phi_1,\phi_2,\cdots,\phi_n$的真值都是$_T$，那么$\psi$的真值也一定是$_T$</p>
 </li>
 <li><p><strong>重言等值</strong>：互相重言蕴含</p>
 </li>
@@ -670,174 +637,134 @@
             <h3 id="Forewords：Motivation-zum-Deutschlernen"><a href="#Forewords：Motivation-zum-Deutschlernen" class="headerlink" title="Forewords：Motivation zum Deutschlernen"></a>Forewords：Motivation zum Deutschlernen</h3><p>​        中文是诗性语言，分析性强，灵活度高，诸多短句使语言自由饱满，富有美感。但是现代汉语终究是门新语言，是新文化运动以降改造的产物。欧化不成，文言又有残余，中文的弊端非常显著：带不动从句。与此同时，新思想从外国人的脑仁儿里闪现，立刻就从欧美日韩各国人的口里蹦发，而中国人受制于尴尬的政治环境，译者奇少，质量不好，仅限的书号也都用在了高考应试教辅上，加上中产阶级的“去政治化”思潮，即思想太“危险”，往往认为不想不读才是上策。</p>
 <p>​        所以在当代，中文是信息的孤岛。中文既是信息的孤岛，掌握一两门外语就尤为重要。</p>
 <p>​        英语虽然通用，但仍然不够。英语能通各门语种，可毕竟转换耗时，而且小语种的论文过多往往并无翻译。英美长分析哲学，欧陆长欧陆哲学，学哲学，尤其欧陆，需要德语。德国机械大国，学习理工绕不过。</p>
-<h3 id="1-Volcabulary"><a href="#1-Volcabulary" class="headerlink" title="1. Volcabulary"></a>1. Volcabulary</h3><h4 id="color"><a href="#color" class="headerlink" title="color"></a>color</h4><table>
+<h3 id="1-Volcabulary"><a href="#1-Volcabulary" class="headerlink" title="1. Volcabulary"></a>1. Volcabulary</h3><h4 id="color"><a href="#color" class="headerlink" title="color"></a>color</h4><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center">Deutsch</th>
-<th align="center">English</th>
+<th style="text-align:center">Deutsch</th>
+<th style="text-align:center">English</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">schwarz</td>
-<td align="center">black</td>
+<tbody>
+<tr>
+<td style="text-align:center">schwarz</td>
+<td style="text-align:center">black</td>
 </tr>
 <tr>
-<td align="center">weiß</td>
-<td align="center">white</td>
+<td style="text-align:center">weiß</td>
+<td style="text-align:center">white</td>
 </tr>
 <tr>
-<td align="center">rot</td>
-<td align="center">red</td>
+<td style="text-align:center">rot</td>
+<td style="text-align:center">red</td>
 </tr>
 <tr>
-<td align="center">grün</td>
-<td align="center">green</td>
+<td style="text-align:center">grün</td>
+<td style="text-align:center">green</td>
 </tr>
 <tr>
-<td align="center">gelb</td>
-<td align="center">yellow</td>
+<td style="text-align:center">gelb</td>
+<td style="text-align:center">yellow</td>
 </tr>
 <tr>
-<td align="center">purpurn</td>
-<td align="center">purple</td>
+<td style="text-align:center">purpurn</td>
+<td style="text-align:center">purple</td>
 </tr>
 <tr>
-<td align="center">blau</td>
-<td align="center">blue</td>
+<td style="text-align:center">blau</td>
+<td style="text-align:center">blue</td>
 </tr>
 <tr>
-<td align="center">grau</td>
-<td align="center">grey</td>
+<td style="text-align:center">grau</td>
+<td style="text-align:center">grey</td>
 </tr>
 <tr>
-<td align="center">bunt</td>
-<td align="center">colorful</td>
+<td style="text-align:center">bunt</td>
+<td style="text-align:center">colorful</td>
 </tr>
 <tr>
-<td align="center">braun</td>
-<td align="center">brown</td>
+<td style="text-align:center">braun</td>
+<td style="text-align:center">brown</td>
 </tr>
 <tr>
-<td align="center">orange</td>
-<td align="center">orange</td>
+<td style="text-align:center">orange</td>
+<td style="text-align:center">orange</td>
 </tr>
 <tr>
-<td align="center">lila</td>
-<td align="center">light purple</td>
+<td style="text-align:center">lila</td>
+<td style="text-align:center">light purple</td>
 </tr>
-</tbody></table>
-<h4 id="clothes"><a href="#clothes" class="headerlink" title="clothes"></a>clothes</h4><table>
+</tbody>
+</table>
+</div>
+<h4 id="clothes"><a href="#clothes" class="headerlink" title="clothes"></a>clothes</h4><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center">Deutsch</th>
-<th align="center">中文</th>
+<th style="text-align:center">Deutsch</th>
+<th style="text-align:center">中文</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">der Mantel</td>
-<td align="center">大衣</td>
+<tbody>
+<tr>
+<td style="text-align:center">der Mantel</td>
+<td style="text-align:center">大衣</td>
 </tr>
 <tr>
-<td align="center">das Hemd</td>
-<td align="center">衬衫</td>
+<td style="text-align:center">das Hemd</td>
+<td style="text-align:center">衬衫</td>
 </tr>
 <tr>
-<td align="center">der Pullover</td>
-<td align="center">毛衣</td>
+<td style="text-align:center">der Pullover</td>
+<td style="text-align:center">毛衣</td>
 </tr>
 <tr>
-<td align="center">die Jacke</td>
-<td align="center">夹克衫</td>
+<td style="text-align:center">die Jacke</td>
+<td style="text-align:center">夹克衫</td>
 </tr>
 <tr>
-<td align="center">die Bluse</td>
-<td align="center">女衬衫</td>
+<td style="text-align:center">die Bluse</td>
+<td style="text-align:center">女衬衫</td>
 </tr>
 <tr>
-<td align="center">der Sakko</td>
-<td align="center">西服</td>
+<td style="text-align:center">der Sakko</td>
+<td style="text-align:center">西服</td>
 </tr>
 <tr>
-<td align="center">der Rock</td>
-<td align="center">裙子</td>
+<td style="text-align:center">der Rock</td>
+<td style="text-align:center">裙子</td>
 </tr>
 <tr>
-<td align="center">die Hose</td>
-<td align="center">裤子</td>
+<td style="text-align:center">die Hose</td>
+<td style="text-align:center">裤子</td>
 </tr>
 <tr>
-<td align="center">die Krawatte</td>
-<td align="center">领带</td>
+<td style="text-align:center">die Krawatte</td>
+<td style="text-align:center">领带</td>
 </tr>
 <tr>
-<td align="center">die Schuhe</td>
-<td align="center">鞋带</td>
+<td style="text-align:center">die Schuhe</td>
+<td style="text-align:center">鞋带</td>
 </tr>
 <tr>
-<td align="center">die Socken</td>
-<td align="center">袜子</td>
+<td style="text-align:center">die Socken</td>
+<td style="text-align:center">袜子</td>
 </tr>
 <tr>
-<td align="center">der Schal</td>
-<td align="center">围巾</td>
+<td style="text-align:center">der Schal</td>
+<td style="text-align:center">围巾</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <h3 id="Grammatik"><a href="#Grammatik" class="headerlink" title="Grammatik"></a>Grammatik</h3><ol>
 <li><p>NＧDＡ=一二三四（格）</p>
 </li>
 <li><p>名词和定冠词的一四格</p>
-<table>
-<thead>
-<tr>
-<th>格</th>
-<th>m.</th>
-<th>f.</th>
-<th>n.</th>
-<th>Pl.</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>N</td>
-<td>der Text</td>
-<td>die Wohnung</td>
-<td>das Buch</td>
-<td>die Bücher</td>
-</tr>
-<tr>
-<td>A</td>
-<td>den Text</td>
-<td>die Wohnung</td>
-<td>das Buch</td>
-<td>die Bücher</td>
-</tr>
-</tbody></table>
+<p>| 格   | m.       | f.          | n.       | Pl.        |<br>| —— | ———— | —————- | ———— | ————— |<br>| N    | der Text | die Wohnung | das Buch | die Bücher |<br>| A    | den Text | die Wohnung | das Buch | die Bücher |</p>
 </li>
 <li><p>名词和不定冠词的一四格</p>
-<table>
-<thead>
-<tr>
-<th>格</th>
-<th>m.</th>
-<th>f.</th>
-<th>n.</th>
-<th>Pl.</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>N</td>
-<td>ein Text</td>
-<td>eine Wohnung</td>
-<td>ein Buch</td>
-<td>Bücher</td>
-</tr>
-<tr>
-<td>A</td>
-<td>einen Text</td>
-<td>eine Wohnung</td>
-<td>ein Buch</td>
-<td>Bücher</td>
-</tr>
-</tbody></table>
+<p>| 格   | m.         | f.           | n.       | Pl.    |<br>| —— | ————— | —————— | ———— | ——— |<br>| N    | ein Text   | eine Wohnung | ein Buch | Bücher |<br>| A    | einen Text | eine Wohnung | ein Buch | Bücher |</p>
 </li>
 <li><p>sein</p>
 <p>bin bist ist sind seid sind</p>

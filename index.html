@@ -377,7 +377,7 @@
                 
               
 
-              <time title="Created: 2019-07-24 20:12:35 / Modified: 20:44:14" itemprop="dateCreated datePublished" datetime="2019-07-24T20:12:35+08:00">2019-07-24</time>
+              <time title="Created: 2019-07-24 20:12:35 / Modified: 20:54:21" itemprop="dateCreated datePublished" datetime="2019-07-24T20:12:35+08:00">2019-07-24</time>
             </span>
           
 
@@ -439,17 +439,17 @@
         
           
             <h3 id="what-the-fa-fuck？"><a href="#what-the-fa-fuck？" class="headerlink" title="what the fa..fuck？"></a>what the fa..fuck？</h3><p>​        上一篇逻辑学基础1，用到了大量的数学公式和特殊符号，为此我特意把hexo的markdown加上了mathjax。但是mathjax会造成类似$或者|符号的占用，识别不了不顶格的表格，公式前后的$也必须要加上空格。而且！最令人头疼的是，mathjax不支持显示布尔代数的且或符号，形成$\and$、$\or$ 这种尴尬的局面。</p>
-<h3 id="how-to-sol-solve"><a href="#how-to-sol-solve" class="headerlink" title="how to sol..solve?"></a>how to sol..solve?</h3><p>​        内嵌HTML啊！html这么有趣的东西，可以放在markdown里，比方说，&and;，即\&amp; and;，打出来就变成了特殊符号，根本不要公式器！（markdown太弱了哈哈哈哈哈）</p>
+<h3 id="how-to-sol-solve"><a href="#how-to-sol-solve" class="headerlink" title="how to sol..solve?"></a>how to sol..solve?</h3><p>​        内嵌HTML啊！html这么有趣的东西，可以放在markdown里，比方说，&and;，即&amp; and;，打出来就变成了特殊符号，根本不要公式器！（markdown太弱了哈哈哈哈哈）</p>
 <h3 id="wow…-amazing"><a href="#wow…-amazing" class="headerlink" title="wow… amazing!"></a>wow… amazing!</h3><p>​        这篇博客除了总结特殊符号外，还想写一点html的有趣用法</p>
 <ol>
 <li><p>特殊符号</p>
-<p>希腊字母：\&amp; 后（无空格）跟希腊字母名称再加上个分号。例如：\&amp; beta; $\Longleftrightarrow$ &beta; 或者 \&amp; Sigma; $\Longleftrightarrow$ &Sigma;</p>
+<p>希腊字母：&amp; 后（无空格）跟希腊字母名称再加上个分号。例如：&amp; beta; $\Longleftrightarrow$ &beta; 或者 &amp; Sigma; $\Longleftrightarrow$ &Sigma;</p>
 <p>and和or：\&amp; and; \&amp; or;</p>
 <p>和$\latex$的用法基本一致</p>
 </li>
-<li><p>分割线\&lt; hr >，上下标\&lt; sub > \&lt; sup >，高亮\&lt; mark ></p>
+<li><p>分割线&lt; hr &gt;，上下标&lt; sub &gt; &lt; sup &gt;，高亮&lt; mark &gt;</p>
 </li>
-<li><p>表格，\&lt; table >开头，后跟\&lt; tr >表示一行，里面有\&lt; td >表示一列</p>
+<li><p>表格，&lt; table &gt;开头，后跟&lt; tr &gt;表示一行，里面有&lt; td &gt;表示一列</p>
 </li>
 <li><p>嵌入b站视频</p>
 <p>b站里，每个视频的分享按钮下，都可以复制一段html代码，例如：</p>
@@ -458,6 +458,22 @@
 </li>
 </ol>
 <iframe src="//player.bilibili.com/player.html?aid=60547751&cid=105398808&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<ol>
+<li><p>iframe</p>
+<p>iframe有很多参数可以调，比如</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">"https://www.baidu.com"</span> <span class="attr">style</span>=<span class="string">"width:400px;height:400px;"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>即是表示</p>
+<iframe src="https://www.baidu.com" style="width:400px;height:400px;"></iframe>
+
+<p>当然，如果把滚动条去掉：</p>
+<iframe src="https://www.baidu.com" style="width:400px;height:400px;" scrolling="no"></iframe>
+
+
+
+</li>
+</ol>
+<h3 id="words-after-writing"><a href="#words-after-writing" class="headerlink" title="words after writing"></a>words after writing</h3><p>&amp; or &lt; kind of things are really like 避讳。</p>
 
           
         
